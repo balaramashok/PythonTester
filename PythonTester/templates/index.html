@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis AI Tool</title>
+</head>
+<body>
+    <h1>Sentiment Analysis AI Tool</h1>
+    <textarea id="textInput" rows="5" cols="50" placeholder="Enter text for sentiment analysis"></textarea>
+    <button onclick="analyzeSentiment()">Analyze Sentiment</button>
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
